@@ -1,0 +1,24 @@
+******************************
+4/27/2015 Blake Lieberman 11:00 PM
+******************************
+
+
+-Create form checker to see if the first letter matches the random letter
+-persist high score using cookies
+-inject ngCookies ngAnimation
+-animate with famous
+
+******************************
+5/2/2015 Blake Lieberman 3:00 PM
+******************************
+
+-action for state, color, actions, right and wrong
+
+//loading state
+//start state 1st time
+//start state 2nd time
+//message state
+//game play state
+    //correct
+    //incorrect
+//game play gameover

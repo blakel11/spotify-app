@@ -1,0 +1,22 @@
+<div class="container play">
+  <div class="header">
+    <img src="./img/icon.png" alt="Icon" class="pull-left">
+    <h2 class="pull-right">Score: {{play.score}}</h2>
+  </div>
+  <div>
+    <h2>The Artist / Band Begins with</h2>
+    <h1>{{play.letter}}</h1>
+  </div>
+  <form name="play.answerForm" class="answerField"  ng-submit="play.submitAnswer(play.answer)" novalidate>
+    <div ng-class="{'has-error': play.invalid, 'has-success' : play.valid,'animated shake' :play.invalid, 'animated bounce': play.valid}">
+      <input name="answer"
+             ng-model="play.answer" type="text" class="form-control" id="answerInput" placeholder="Artist/Band" required />
+      <input name="submit" type="submit" class="btn btn-default btn-special" value="ENTER"/>
+    </div>
+  </form>
+  <div class="row">
+    <div class="col-sm-12 album-art" ng-if="play.album.correct">
+      <img class="img-responsive" ng-src="{{play.album.image}}" alt=""/>
+    </div>
+  </div>
+</div>

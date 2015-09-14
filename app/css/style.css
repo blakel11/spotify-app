@@ -1,0 +1,102 @@
+input[type="text"], input[type="password"], input[type="phone"], textarea {
+  font-size: 16px; }
+
+body {
+  background: #59BFD2;
+  color: #026375;
+  padding: 20px;
+  text-align: center; }
+
+.btn-special, .btn-special:focus {
+  background: darkgreen;
+  border-color: #34DA59;
+  background-color: #34DA59;
+  color: #fff;
+  margin: 0 7px;
+  padding: 10px 15px; }
+  .btn-special:focus, .btn-special:focus:focus {
+    border-color: #026375 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #026375 !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #026375 !important; }
+  .btn-special:hover, .btn-special:focus:hover {
+    background-color: #1ea43c;
+    border-color: #1ea43c;
+    color: #fff; }
+
+.has-success .form-control {
+  border-color: #34DA59; }
+  .has-success .form-control:focus {
+    border-color: #34DA59 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #34DA59 !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #34DA59 !important; }
+
+.has-error .form-control {
+  border-color: #FF7769; }
+  .has-error .form-control:focus {
+    border-color: #FF7769 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #FF7769 !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #FF7769 !important; }
+
+h1 {
+  font-size: 30px;
+  margin-top: 30px; }
+
+h2 {
+  font-size: 24px;
+  margin-top: 30px; }
+
+h3 {
+  font-size: 20px; }
+
+p {
+  margin-top: 30px; }
+
+.header {
+  height: 57px; }
+  .header img {
+    width: 57px;
+    height: 57px; }
+
+.answerField input[type=submit] {
+  display: inline-block;
+  height: 41px;
+  width: 25%;
+  max-width: 77px;
+  margin: -3px 1% 0 -5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+.answerField input[type=text] {
+  max-width: 600px;
+  margin: 0 auto;
+  display: inline-block;
+  height: 41px;
+  width: 70%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.nav, .pagination, .carousel, .panel-title a {
+  cursor: pointer; }
+
+.rules {
+  display: block; }
+
+a {
+  margin-top: 45px; }
+
+form {
+  margin-top: 35px; }
+
+.gameover div.btn-special, .gameover a.btn-special, .start div.btn-special, .start a.btn-special {
+  margin-top: 60px; }
+.gameover h4, .start h4 {
+  margin-top: 75px; }
+
+.header h2 {
+  margin: 10px auto; }
+
+.album-art img {
+  margin: 75px auto 0;
+  max-width: 500px;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
